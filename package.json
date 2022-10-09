@@ -1,0 +1,28 @@
+{
+  "name": "gulu-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "css-loader": "^6.7.1",
+    "style-loader": "^3.3.1",
+    "vue": "^2.7.10",
+    "vue-hot-reload-api": "^2.3.4"
+  },
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^3.3.0",
+    "chai": "^4.3.6",
+    "chai-spies": "^1.0.0",
+    "parcel-bundler": "^1.12.5",
+    "sass": "^1.55.0",
+    "vue-template-compiler": "^2.7.10"
+  },
+  "alias": {
+    "vue": "./node_modules/vue/dist/vue.common.js"
+  }
+}
